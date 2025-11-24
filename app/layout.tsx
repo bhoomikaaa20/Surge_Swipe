@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
 import Navbar from "@/components/navbar";
+import SurgeSwipeFooter from "@/components/footer";
 
 
 const geistSans = Geist({
@@ -33,6 +34,8 @@ export default function RootLayout({
         <Navbar />
 
         {children}
+
+        <SurgeSwipeFooter />
       </body>
     </html>
   );
