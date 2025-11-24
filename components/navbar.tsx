@@ -56,7 +56,7 @@ export default function Navbar() {
                                     </li>
                                     <li>
                                         <NavigationMenuLink asChild>
-                                            <Link href="/about/projects-assistance" className="p-2 hover:bg-gray-100 rounded">Mini & Major Projects Assistance</Link>
+                                            <Link href="/about/projects-assistance" className="p-2 hover:bg-gray-100 rounded">Projects Assistance</Link>
                                         </NavigationMenuLink>
                                     </li>
                                 </ul>
